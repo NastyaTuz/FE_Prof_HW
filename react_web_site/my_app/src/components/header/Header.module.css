@@ -1,0 +1,59 @@
+.header {
+  height: 840px;
+  background-color: #f4f9e2;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+}
+
+.nav > p:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #f9b640;
+  color: white;
+  border: none;
+}
+
+.description {
+  margin: 85px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description div {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  width: 50%;
+}
+
+.description h1 {
+  color: #22356f;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -1.68px;
+}
+
+.description p {
+  width: 602px;
+  color: #22356f;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 177.3%;
+}

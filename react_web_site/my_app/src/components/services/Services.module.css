@@ -1,0 +1,42 @@
+
+.services_container  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 480px;
+  justify-content: center;
+}
+
+.services_container h3{
+  display: flex;
+  padding: 126px 0 282px 70px;
+  width: 100%;
+  color: white;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 106.38%; 
+  letter-spacing: -0.192px;
+}
+.services_container div:first-child {
+  background-color: #22356f;
+
+}
+.services_container div:nth-child(2) {
+  background-color: #0052c1;
+}
+.services_container div:last-child {
+  background-color: #76b58b;
+}
+
+.services_container div{
+  position: relative;
+}
+
+hr{
+  position: absolute;
+  width: 340px;
+  height: 2px;
+  color: white;
+  top: 96px;
+  left: 70px;
+}

@@ -1,0 +1,28 @@
+.rent_container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.rent_container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 49px;
+}
+
+.rent_container h2 {
+  width: 676px;
+  color: #22356f;
+}
+
+.rent_container p {
+  color: #22356f;
+  width: 676px;
+}
+
+.rent_container img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+p {
+  color: #fff;
+  text-align: justify;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 147.75%;
+}
+
+.text_content {
+  color: #22356f;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 141.84%;
+  letter-spacing: 0.12px;
+  width: 739px;
+}
+
+.text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
